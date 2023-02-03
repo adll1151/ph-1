@@ -3,7 +3,7 @@ def solution(numbers):
     for i in range(1,10):
         if i not in numbers:
             total += i  
-    return toal
+    return total
 numbers = [1,2,3,4,6,7,8,0]
 answer = solution(numbers)
 print(answer)
